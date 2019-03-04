@@ -1,0 +1,475 @@
+<html lang="en"><head>
+    <!-- minimal configuration -->
+    <meta charset="utf-8">
+    <meta name="description" content="Welcome to Massimiliano Bassan's website. Dev,graphic editor and tech enthousiast.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="icon" href="ressources/Logos/PierreBouillon_logo.png">
+    <title>Massimiliano Bassan - Web developer</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!-- Styles -->
+        <!-- Reset -->
+            <link rel="stylesheet" href="css/reset.css">
+        <!-- Core -->
+            <link rel="stylesheet" href="css/html_core.css">
+            <link rel="stylesheet" href="css/navbar.css">
+            <link rel="stylesheet" href="css/containers.css">
+            <link rel="stylesheet" href="css/modal.css">
+        <!-- ParticlesJS -->
+            <link rel="stylesheet" href="css/particles.css">
+        <!-- sections -->
+            <!-- Head -->
+                <link rel="stylesheet" href="css/intro.css">
+            <!-- Presentation -->
+                <link rel="stylesheet" href="css/presentation.css">
+            <!-- Skills -->
+                <link rel="stylesheet" href="css/skills.css">
+            <!-- Experiences -->
+                <link rel="stylesheet" href="css/experiences.css">
+            <!-- Education -->
+                <link rel="stylesheet" href="css/education.css">
+            <!-- Contest -->
+                <link rel="stylesheet" href="css/contest.css">
+            <!-- Volunteer -->
+                <link rel="stylesheet" href="css/volunteer.css">
+            <!-- Contact -->
+                <link rel="stylesheet" href="css/contact.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- open graph -->
+        <!-- Informations -->
+    <meta property="og:description" content="Hi, I'm Massimiliano Bassan, Dev,graphic editor and tech enthousiast.">
+    <meta property="og:title" content="Massimiliano Bassan's website">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+        <!-- Image -->
+    <meta property="og:image" content="img/MB_logo.png">
+    <meta property="og:image:secure_url" content="img/MB_logo.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="80">
+    <meta property="og:image:height" content="80">
+    <meta property="og:image:alt" content="Website icon">
+    <meta property="og:locale" content="en_GB">
+</head>
+
+<body onload="openLanguage(event, 'Python'); typeWriter(); return false;">
+
+    <div id="particles-js"><canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="2510" height="982"></canvas></div>
+
+    <nav class="navbar">
+        <label for="show-menu" class="show-menu" onclick="toggle();return false;">
+                    Menu
+        </label>
+        <input type="checkbox" id="show-menu" role="button">
+        <ul id="menu">
+            <li><a href="#top" class="alt-color js-scrollTo" onclick="hide();return false;">
+                Who?</a></li>
+            <li><a href="#about_me" class="js-scrollTo" onclick="hide();return false;">
+                About me</a></li>
+            <li><a href="#skills" class="alt-color js-scrollTo" onclick="hide();return false;">
+                Skills</a></li>
+            <li><a href="#experiences" class="js-scrollTo" onclick="hide();return false;">
+                Experiences</a></li>
+            <li><a href="#education" class="alt-color js-scrollTo" onclick="hide();return false;">
+                Education</a></li>
+                <li><a href="#contest" class="js-scrollTo" onclick="hide();return false;">
+                Web Design</a></li>
+            <li><a href="#volunteer" class="alt-color js-scrollTo" onclick="hide();return false;">
+                Video Showreel</a></li>
+            <li><a href="#contact" class="js-scrollTo" onclick="hide();return false;">
+                Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="top" class="intro">
+        <h1>Massimiliano Bassan</h1>
+        <strong><p id="intro_title">Web Developer</p></strong>
+
+        <img src="img/MB_logo.png" class="my_logo" alt="Massimiliano Bassan">
+
+        <table id="other_links">
+            <tbody>
+                <tr>
+                    <td>
+                        <a target="_blank" href="https://www.linkedin.com/in/massimiliano-bassan-a81aaa16b">
+                            <i class="fab fa-linkedin fa-4x"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a a href="#volunteer" class="alt-color js-scrollTo" onclick="hide();return false;" alt="video-showreel">
+                            <i class="fas fa-video fa-4x"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#contest" class="alt-color js-scrollTo" onclick="hide();return false;" alt="website-showreel">
+                            <i class="fas fa-pencil-alt fa-4x"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <!-- <a target="_blank" href="./ressources/CV_Pierre_Bouillon_ST.pdf"> -->
+                        <!-- <a target="_blank" href="./ressources/CV_JSON.png"> -->
+                        <a target="_blank" href="img/CVv2.jpg" alt="CV">
+                            <img src="img/cv-icon.png">
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <section class="presentation">
+        <h2 id="about_me">About me</h2>
+        <div class="box">
+            <p>
+                My name is Massimiliano Bassan, I'm a <strong>web developer</strong>,graphic & video editor from Italy.<br>
+                I am a technology enthusiast who loves team work.
+                Hardworking, self-taught and curious, I like to see my projects come to life.
+            </p>
+        </div>
+        <div class="box">
+            <p>
+                Since I was a child I've been fascinated by the world.
+                I got my first personal computer when i was 5 years old.<br>
+                I discovered HTML when i was 13 and I use Photoshop and Premiere by the age of 15-16.<br> 
+                Curious about everything, passionate about creating and discovering my skills. 
+                Exploring new languages, meeting new people, conceiving websites, achieving new projects, etc. <br>
+                That's what motivates me in my work.
+            </p>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="skills">
+        <h2 id="skills">Skills</h2>
+        
+        <div class="light-box">
+            <p>
+                I've learnt different programming languages through my school carrer, my spare time 
+                and my researches. <br>
+                I've also discovered and mastered some useful and powerful graphic softwares and popular CMS.<br>
+                This is what i can do:<br>
+            </p>
+            <div class="tab">
+                <strong>
+                    <button class="tablinks" onclick="openLanguage(event, 'Python')">
+                        Web
+                    </button>
+                    <button class="tablinks" onclick="openLanguage(event, 'Java')">
+                        OOP
+                    </button>
+                    <button class="tablinks" onclick="openLanguage(event, 'C')">
+                        Graphic
+                    </button>
+                    <button class="tablinks" onclick="openLanguage(event, 'JavaScript')">
+                        Marketing
+                    </button>
+                </strong>
+            </div>
+            
+            <div id="Python" class="tabcontent" style="display: block;">
+                <h3>Web</h3>
+                <p>
+                    HTML & CSS were my first love in the webdesign world.<br>
+                    It was fascinating to see draw a square on a screen by typing magic words.<br> 
+                    I consequently found useful tools through the years to help me in discovering great solutions for my projects: CMS like Wordpress, Joomla and Drupal for example.<br>
+                    You can find some my Webdesign's projects & showreel 
+                    <a href="n" target="_blank" title="My websites">
+                        here
+                    </a>.
+                </p>
+            </div>
+            <div id="Java" class="tabcontent" style="display: none;">
+                <h3>OOP</h3>
+                <p>
+                    I studied <strong>Oriented Programming</strong> in my college years.<br>
+                    I learned coding in <strong>Java</strong> focusing also on algorithms and data structures.<br>
+                    Coding in Java gave me the correct mindset to code well with every language once known.<br>
+                </p>
+            </div>
+            <div id="C" class="tabcontent" style="display: none;">
+                <h3>Graphic</h3>
+                <p>
+                    I used <strong>Photoshop and Premiere Pro</strong>since 2008<br>
+                    In these years I learned a lot and perfected my skills in graphic editing, web designing and video making<br>
+                    thanks to those programs, being able now to perform a great amount of diffrent tasks finding every time newer solutions.<br>
+                    I also learned a bit of After Effects and Audition cooperating with a local movie theater.
+                </p>
+            </div>
+            <div id="JavaScript" class="tabcontent" style="display: none;">
+                <h3>Marketing</h3>
+                <p>
+                    I discovered a great potential in Social Media Marketing and managing since my first sign up on these platforms:<br>
+                    not only I did help managing pages for little local companies(resturants, basketball teams)<br> 
+                    but I also worked as a Social Media Manager for a political campaign in my town.<br>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="experiences">
+        <h2 id="experiences">
+            Experiences 
+            <span class="small">
+                (most recent) 
+            </span>
+        </h2>
+        <div class="box">
+            <h3>2019</h3>
+            <p>
+                I cooperate with a graphic designer creating and re-designing a website for a local company.
+                I managed the SEO and content aspect of this project syncing costantly with my collegue.
+                We tried to deliver the client a product worth of their expectation successfully
+            </p>
+        </div>
+        <div class="box">
+            <h3>2017-2018</h3>
+            <p>
+                I worked as the Social Media Manager for a political campaign in my town.<br>
+                I managed the personal Website of the candidate and his Social Media pages creating contents such as daily VideoLogs about the candidate's program.<br>
+                I also worked on all flyers and posters.<br>
+                It was a long and hard work, rewarded with the victory of the candidate.<br>
+                It gave me the opportunity to meet,work and cooperate with many diffrent people and improving my abilities even further.               
+            
+            </p>
+        </div>
+        <div class="box">
+            <h3>2016</h3>
+            <p>
+                I worked as a video maker cooperating with a movie theater and creating a video ad.
+                It was a fun job because it involved a good amount of creative effects and accurate editing.
+                It also included the editing of sound for a Dolby Surround 7.1 system: I basically did a <a href="#volunteer" class="alt-color js-scrollTo" onclick="hide();return false;" alt="website-showreel"><strong>little movie trailer!</strong></a>
+            </p>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="education">
+        <h2 id="education">Education</h2>
+        <div class="light-box">
+            <h3>Present</h3>
+            <h4>University of Padua - Information Engenieering</h4>
+            
+            <ul>
+                <li>- Basic Machine Learning</li>
+                <li>- Object Oriented Programming</li>
+                <li>- Algorithms and its analysis</li>
+                <li>- Data Structures</li>
+            </ul>
+        </div>
+
+        <div class="light-box">
+            <h3>2012</h3>
+            <h4>Liceo Scientifico - Enrico Fermi</h4>
+        </div>  
+    </section>
+
+    <hr>
+
+    <section class="contest">
+        <h2 id="contest">Web design
+            <span class="small">
+                (some of them) 
+            </span>
+        </h2>
+        
+
+        <table class="big-img-wrapper">
+            <thead>
+                <tr>
+                    <th class="sub-title" colspan="2">DM Solutions' Website</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="logo">
+                        <a href="http:\\www.dmsolution.it"><img src="img/dms.png" alt="DM Solution Logo"></a>
+                    </td>
+                    <td class="text">
+                        <p>
+                            I cooperate with a graphic designer to create a Website for a local buisness( lights & events)<br>
+                            We did it using Wordpress for its user-friendly interface: we do not own its future managment so we decided to use the CMS<br>
+                            in order to meet stunning visuals and simple usage.
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="big-img-wrapper">
+            <thead>
+                <tr>
+                    <th class="sub-title" colspan="2">Riccardo Mortandello Sindaco Webpage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="logo">
+                        <a href="http:\\www.riccardosindaco.it"><img src="img/ricky.jpg" alt="Riccardo Mortandello's Pic"></a>
+                    </td>
+                    <td class="text">
+                        <p>
+                            I helped managing and restyling by using free third-part CMS a political candidate webpage.
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="big-img-wrapper">
+            <thead>
+                <tr>
+                    <th class="sub-title" colspan="2">Thermal Olympia Pallacanestro's Webpage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="logo">
+                        <a href=""><img src="img/logo_top_canestro.png" alt="TOP logo"></a>
+                    </td>
+                    <td class="text">
+                        <p>
+                            I re-designed a website for a local basketball team.
+                            I edited a standard template for Wordpress making it suitable for a team's blog manging users and contents.
+                            Unfortunately due to fund issues the website was taken down and it's no longer available.
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="big-img-wrapper">
+            <thead>
+                <tr>
+                    <th class="sub-title" colspan="2">Early years on ForumFree</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="logo">
+                        <a href="https://aoe2fan.forumfree.it/"><img src="img/index.png" alt="ForumFree logo"></a>
+                    </td>
+                    <td class="text">
+                        <p>
+                            I first learned to code HTML&CSS on this platform beacuse it give you the possibility to full customize your forum from graphics to basic scripts.
+                            I used it as a laboratory to experiment new graphic designs and discover new functions of the web tools.
+                            It was learning but it was relly fun!
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <section class="volunteer">
+        <h2 id="volunteer">Video Showreel</h2>
+
+        <table class="big-img-wrapper">
+            <thead>
+                <tr>
+                    <th class="sub-title" colspan="3">My Projects</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text">
+                        <iframe width="480" height="360" src="https://www.youtube.com/embed/Of47JpqNo0Q" frameborder="0">
+                        </iframe>
+                    </td>
+                    <td class="text">
+                        <iframe width="480" height="360" src="https://www.youtube.com/embed/qUBghy-LEzw" frameborder="0" >
+                        </iframe>
+                    </td>
+                    <td class="text">
+                        <iframe width="480" height="360" src="https://www.youtube.com/embed/wudn4YWI8n8" frameborder="0">
+                        </iframe>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text" style="text-align:center"><i class="fas fa-exclamation-triangle fa-4x"></i><br><br>Coming soon</td>
+                    <td class="text" style="text-align:center"><i class="fas fa-exclamation-triangle fa-4x"></i><br><br>Coming soon</td>
+                    <td class="text" style="text-align:center"><i class="fas fa-exclamation-triangle fa-4x"></i><br><br>Coming soon</td>
+                </tr>
+            </tbody>
+        </table>
+
+        
+    </section>
+
+    <hr>
+
+    <section class="contact">
+        <h2 id="contact">Contact me</h2>
+
+        <div class="light-box" style="text-align: center; width: 35%; ">
+        	<h3 style="margin: 15px;">Let's get in touch !</h3>
+	        <p>
+	        	If you are intersted in my work or just out of curiosity go ahead and contact me.<br>
+	        	You can use my mailbox or use LinkedIn!
+	        </p>
+
+	        <table id="other_links" style="margin-top: 30px;">
+	            <tbody>
+	                <tr>
+	                    <td>
+	                        <a target="_blank" href="https://www.linkedin.com/in/massimiliano-bassan-a81aaa16b">
+                                <i class="fab fa-linkedin fa-4x"></i>
+                            </a>
+	                    </td>
+	                    <td>
+	                        <a target="_blank" href="mailto:massimiliano.bassan25@gmail.com">
+                                <i class="fas fa-envelope-square fa-4x"></i>
+                            </a>
+	                    </td>
+	                </tr>
+	            </tbody>
+	        </table>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>
+            Ⓒ 2019 <strong>Massimiliano Bassan</strong> <br>
+        </p>
+        <!-- Image Bank Label -->
+       
+    </footer>
+
+    <!--
+    Copyright (c) 2017 by Vincent Garreau (https://codepen.io/VincentGarreau/pen/pnlso)
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicenh1se, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+    The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    -->
+    <!-- particles.js lib (JavaScript CodePen settings): https://github.com/VincentGarreau/particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- JQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Script -->
+    <script src="js/index.js"></script>
+    <!-- Google indexing -->
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "",
+      "logo": ""
+    }
+    </script>
+
+
+
+
+
+</body></html>
