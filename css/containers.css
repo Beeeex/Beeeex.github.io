@@ -167,11 +167,50 @@ td.logo img {
     table.big-img-wrapper {
         width     : 95%;
         font-size : 1rem;
+        padding : 10px;
+        
     }
-
+    
     td.logo img {
         height  : 75px;
         width   : 75px;
-        padding : 10px;
+        padding:10px;
+    
+    }
+}
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+		
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		position: relative;
+		
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+    }
+    td.logo
+    {
+        width:100%;
+        
+    }
+    td.logo img
+    {
+        text-align:center
     }
 }
