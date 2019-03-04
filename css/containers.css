@@ -174,17 +174,18 @@ td.logo img {
     td.logo img {
         height  : 75px;
         width   : 75px;
-        padding:10px;
+        padding: 10px;
     
     }
 }
+
 @media 
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
 
 	/* Force table to not be like tables anymore */
 	table, thead, tbody, th, td, tr { 
-		display: block; 
+        display: block; 
 	}
 		
 	td { 
@@ -201,9 +202,10 @@ only screen and (max-width: 760px),
 		top: 6px;
 		left: 6px;
 		width: 45%; 
-		padding-right: 10px; 
+		padding-right: 10px;
 		white-space: nowrap;
     }
+
     td.logo
     {
         width:100%;
@@ -212,5 +214,12 @@ only screen and (max-width: 760px),
     td.logo img
     {
         text-align:center
+    }
+
+    #intro_title{
+        margin-top:200px;
+    }
+    #other_links{
+        display:none;
     }
 }
