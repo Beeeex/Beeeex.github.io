@@ -41,6 +41,11 @@ nav {
   nav ul li a:visited {
     text-decoration : none;
   }
+
+  nav ul li a img {
+    width: 15px;
+    height: 15px;
+  }
   
   .show-menu {
     display          : none;
